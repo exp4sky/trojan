@@ -149,8 +149,8 @@ EOF
         #设置伪装站
         rm -rf /usr/share/nginx/html/*
         cd /usr/share/nginx/html/
-        https://github.com/exp4sky/Trojan/raw/master/yexuskyblog.zip
-        unzip yexuskyblog.zip
+        wget https://github.com/exp4sky/Trojan/raw/master/yexuskyblog.zip
+             unzip yexuskyblog.zip
         systemctl restart nginx.service
         #申请https证书
         mkdir /usr/src/trojan-cert
