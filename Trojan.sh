@@ -149,8 +149,8 @@ EOF
 	#设置伪装站
 	rm -rf /usr/share/nginx/html/*
 	cd /usr/share/nginx/html/
-	wget https://github.com/exp4sky/Trojan/blob/master/yexuskyblog.zip     
-	unzip yexuskyblog.zip
+	wget https://github.com/V2RaySSR/Trojan/raw/master/web.zip
+    	unzip web.zip
 	systemctl restart nginx.service
 	#申请https证书
 	mkdir /usr/src/trojan-cert
@@ -283,6 +283,7 @@ EOF
 	green "2、将下载的压缩包解压，打开文件夹，打开start.bat即打开并运行Trojan客户端"
 	green "3、打开stop.bat即关闭Trojan客户端"
 	green "4、Trojan客户端需要搭配浏览器插件使用，例如switchyomega等"
+	green "访问  https://www.v2rayssr.com/trojan-1.html ‎ 下载 浏览器插件 及教程"
 	green "======================================================================"
 	else
         red "================================"
@@ -327,7 +328,9 @@ start_menu(){
     green " ===================================="
     green " Trojan 一键安装自动脚本      "
     green " 系统：centos7+/debian9+/ubuntu16.04+"
-    green " 此脚本为 atrandys 的，集成了BBRPLUS加速 "
+    green " 网站：www.v2rayssr.com （已开启禁止国内访问）              "
+    green " 此脚本为 atrandys 的，波仔集成了BBRPLUS加速 "
+    green " Youtube：波仔分享                "
     green " ===================================="
     echo
     red " ===================================="
