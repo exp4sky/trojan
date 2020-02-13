@@ -10,6 +10,8 @@ Trojan 一键安装自动脚本
 
 脚本安装命令
 
-curl -O https://github.com/exp4sky/Trojan/blob/master/Trojan.sh && chmod  x trojan.sh && ./trojan.sh
+curl -O https://github.com/exp4sky/Trojan/raw/master/Trojan.sh && chmod  x trojan.sh && ./trojan.sh
 
-wget --no-check-certificate https://github.com/exp4sky/Trojan/blob/master/Trojan.sh && chmod +x Trojan.sh && ./Trojan.sh
+wget --no-check-certificate https://github.com/exp4sky/Trojan/raw/master/Trojan.sh && chmod +x Trojan.sh && ./Trojan.sh
+
+bash <(curl -s -L https://github.com/exp4sky/Trojan/raw/master/Trojan.sh)
