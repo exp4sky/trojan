@@ -163,7 +163,7 @@ EOF
         if test -s /usr/src/trojan-cert/fullchain.cer; then
         cd /usr/src
         #wget trojan*-linux-amd64.tar.xz
-        wget https://github.com/trojan-gfw/trojan/releases/download/v1.15.1/trojan-1.15.1-linux-amd64.tar.xz
+        wget https://github.com/trojan-gfw/trojan/releases/download/v1.16.0/trojan-1.16.0-linux-amd64.tar.xz
         tar xf trojan-1.*
         #下载trojan客户端
         wget https://github.com/atrandys/trojan/raw/master/trojan-cli.zip
